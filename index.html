@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Table with edit section</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="mainTable">
+        <h1>Data</h1>
+
+        <table id="table" border="1">
+            <tr>
+                <th>no</th>
+                <th>First name</th>
+                <th>Last name</th>
+                <th>Country</th>
+                <th>Mobile Number</th>
+            </tr>
+            <tr>
+                <td>01</td>
+                <td>cali</td>
+                <td>samatar</td>
+                <td>somalia</td>
+                <td>77777888</td>
+            </tr>
+            <tr>
+                <td>02</td>
+                <td>cali</td>
+                <td>samatar</td>
+                <td>somalia</td>
+                <td>77777888</td>
+            </tr>
+            <tr>
+                <td>03</td>
+                <td>cali</td>
+                <td>samatar</td>
+                <td>somalia</td>
+                <td>77777888</td>
+            </tr>
+            <tr>
+                <td>04</td>
+                <td>cali</td>
+                <td>samatar</td>
+                <td>somalia</td>
+                <td>77777888</td>
+            </tr>
+            <tr>
+                <td>05</td>
+                <td>cali</td>
+                <td>samatar</td>
+                <td>somalia</td>
+                <td>77777888</td>
+            </tr>
+            <tr>
+                <td>06</td>
+                <td>cali</td>
+                <td>samatar</td>
+                <td>somalia</td>
+                <td>77777888</td>
+            </tr>
+            <tr>
+                <td>07</td>
+                <td>cali</td>
+                <td>samatar</td>
+                <td>somalia</td>
+                <td>77777888</td>
+            </tr>
+        </table>
+    </div>
+
+    <div class="updateBtn">
+        <button onclick="editTableDisplay()">update Data</button>
+    </div>
+
+    <div class="editTable">
+        <div class="left">First Name: </div><div><input type="text" name="fname" id="fname"></div><br>
+        <div class="left">Last Name: </div><div><input type="text" name="Last Name" id="Last Name"></div><br>
+        <div class="left">Country: </div><div><input type="text" name="Country" id="Country"></div><br>
+        <div class="left">mobile Number: </div><div><input type="text" name="mobile Numbe" id="mobile Number"></div><br>
+
+        <button onclick="editRow()" class="editRowBtn">Update</button>
+       
+    </div>
+    <script src="./index.js"></script>
+</body>
+</html>
